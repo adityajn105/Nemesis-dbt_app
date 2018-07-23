@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/9c53982d06723d1d89d2ac2a7f3acf257c5eb974/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d8a1e7d994e686b438e9d7437891d407113b57c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/69431f256491946d2c0dae5d146fbac222a779b9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cad7c48bd16bea5688758a46075adcba84c504e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/616b37761f8720caac13c7997a37db3c1f009c42/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c58647fd0645a0066ce604db57a9ef4213d0c88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/8001adf7d3f94773d69c26229d37f2fdee70416e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bfbac8c7577341a7fca01b74220b28fee1de137b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_a1d5cf26d4b9b4d578d9906d699600289067eace/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/6eae0c729a1e3858ffbe3a9e2c15ac9c75a8a87e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b4a630ffe28e18e990fa5c91c5b6f924e3c5ba16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/a0337ac33f50ee79d71faa69f9fa088ee0572fa6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62a5f3111cddfba9f2680cf9808b1371f870d5d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/8c0f72f3a9b32a47c5e31d2589a711bd4b2f4e63/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7f2c53878a6dadfa6848937f012debf1a99bd18f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/2192381dc37fe15da052dec7d835da69676822ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_17967bfe2d75034c32870baa5d07fc10928d5f91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/6f1dca4eb980a4a7c8211c1b77b49f46dec55173/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b8c70467daee8eb681fad55e06c3be5c46ce19d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/4cd8ac5a1f4495106be606aefb731ca8a5603750/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_271d4440cab64b90362aa591da13f61483b4b85b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/9be2e6f20e659d1f9b766537187b7eaf906f6e7e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cf57ea736c04d8a383055eeab8fac5b3951d55c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/e54ec93d396c13a52f0766002dac8c9677fce847/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_38629b1ceb402d3f1ae9fb7ffb3d736ad9c5fb10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/12f7e18e0bfa26969c3e17fa7b2f6ed3aaa76331/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3aca2faca2d4920aaa752d57803c007d826d6bfa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/a3582d0928525f9fe8cb57675b4c5abf15337768/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6c88950780ea0613a3197dfdbedb44539f3db0c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/30a089d4971529adfa524bf9a44fd210ab5d5305/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b8de82d42a52cfe9ffb150053d6c28bebad78fcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/4e994446d7ea5e3bf8c48cd24ba4be31767b9242/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9244d54e8b13d8266759ffa3da28301cc6d9265b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_dd1d9d9fe4b6c54a1a4d36a62e2a8a1c3c20d958/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/058acbe84e5e9db6df742f3fe977e969bac90fbf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d4ddb90e823bba85a21f46282ec2bfd2ff82e417/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/libs/jsr311-api-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59033da2a1afd56af1ac576750a8d0b1830d59e6">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsr311-api-1.1.1_bd5e8b2fb5224798aaf9b68d6648f0fa0be70c93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/316adea0afe3009a9effc7592b28a9367b19979b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4bdeea71401eac0f995b9b9ec99a73673e07b824/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/c8946eda13bfb9be647b986ed9b3525f3505fb5b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_98757ffacc597098fcd25ff4f867e61cfe0e0658/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/36115c5a05cc74b5787519b2da8dc4efbbb8b584/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d65a64c350a86b834393593edfd4d6dbe4b3a8c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/606cb03435dee31ca0f5a21d8adc7b33e7b59e26/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c2369d025a13e4c77b58d7627879e9e9541bb8ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/4901220fd630dfa9788c576c8d0d2e774fff92b2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4bb492bd0b0453153286c4181148cbe05c5f950a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_c69b5323f249de88bed0d9e4c81be531b4a54030/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/d658b4ea8501afc9709ac001c1c35851868bb73a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cd247adc259d13eafdb49e1b211d73d9c8d5ffec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/392b34e9cc5719179c759ebd4c2428e4e0ff7b69/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_174bfdf5c9747feb5915d6aa840a754b25eb2177/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/6e8143ffc080de40c063f35f5d3b4a3cad6e9065/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6fda6b74405ce0575df541963744cc0dac4db9d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/152a5f82d49e22757380a6f153bb0ba3287452d8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a95e768542aaff2a7ad7af52bc8e78d11757b28b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/85d1c62979c51fb8e329f54e1f2aff088f8b22d2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_561e0c34b825a95e5fca9cf9a0ba9bc9b91e3074/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/c14eb5f04e882d0c44cc56d9975103bd5e9f0637/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5cafcedbe1d732053216acc086e1ad2fe29ee2fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/f066d417ce21d6465cddbfe0377b31a2b0b3dc73/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_487a186865384f3f911e2c43ca0ab2bd3931c508/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/cb41db46c466ad2df8e4c51758373bd83974030e/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ddd1c882eb231a1f604e50c00c6120d1614158d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_ea33d87132f38eac35964bf10e7d4b000b9abe36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/f43b7a6c7dfa516993f14fff1a3d2e5300c0ec88/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2c199dc2f9a766bb60aa7911df5063a8d2ac5969/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/2eccfb5beb1f4d8eade98e67d21bbe1e2b97a306/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7728958179cd08ba04eaba9495872bd6b9edcb36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/7f5cbcb4705d48b6b458bb126ec1417188652176/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a50e29fba9d08d5ded876d2249f8f1ddde249ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/ae61e0933e51303e83a3835019b0440c70ecd994/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_372d9c1920999f54879d668aa38436dded51aaca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/e2ee0ed057fb23772b8e32999acfeec01cb17fa4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_047c1d4b4ded9f214380e52970975351a34427f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/cb41db46c466ad2df8e4c51758373bd83974030e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0fb6840327d358b262594b8e47f4aaa77baedf3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/30a089d4971529adfa524bf9a44fd210ab5d5305/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72e2281e845d0b31f4db696e1b8d6121b5e304d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_655ba6ea9b6647c555bf25c6bd4dd2835354d4dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/c614bee80b0f1bdde484e01bbe47443e346b7b83/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3ea13439ee400a2bf95c0b9535e37c42ae420b1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/606cb03435dee31ca0f5a21d8adc7b33e7b59e26/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_57f9604ca347c94bbadbd9f8ae7253e60e8316fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/39f90ed01236872f6579e97e08d7d7e6d302a600/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de57d4759ea18687b8990af4425e407a00f64b5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/2d4a9af57fc3085a982f20517813dc7bd624c5ab/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ff4e5fff620a0c0690047f704bae691cec047136/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/libs/simple-xml-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/2/simple-xml-2.7.1_fbde168f924e340a9e8d34d271a3f7b19f870299/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/cffff655637ded93f944e63ea7933acd8ccebc28/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_713c64c975a650e966864837e6b15c428e15fe47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/3ca1de2ebb147ecc4708eece77490e5612cf5140/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4eb70144764df81787d42c12d3b4283150832e65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/63db98d3607516a3edf7afa626ccce0cee0cd682/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d6726c78aa8dc62242225d3647980915dd320576/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/b72fd27dd02a80613fd1f2b4dd2d5df4d883e4f9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_08ad06511ba997d5a36695b702528825ef4c52f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/07cd234b9eb05401b9fbc72373aa7e9780c69ca1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b22cbe060aa45696c8d279c39cae86cae7c54661/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/cfebb9edbe63866bb4fbb5a6372e99d1afa4ef30/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ac7355d06abed098a3d36d6fade445f9a88ec977/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.1.0/d6854f42bfb4098d3d2358d93201307b9f1cc95d/butterknife-annotations-8.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6854f42bfb4098d3d2358d93201307b9f1cc95d">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.1.0_e6bf493dd3b0bf442d03c4958dfcf63b51819540/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/4710627bc6f205fc5227a8a532b996af9ae01eb7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_71e7b77e685cfde6fd90a4849783dd387cb31eff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/46881aeeb434f7f6c5b92b1adc6b48c1b5334cd3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7f6a7ff82d1a4ba344565268686651978255b36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/f9e6767906c5c5641b0fb573b7594a5c6a368828/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_405445a639c139a154aa3c0587f875ac65ddb051/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/3b1b99d9d4f677c75f1d8c1e8cb0ea1c5c034758/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d308e9a14226c95cf11acb9a003a011712acff6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/c0a0922c70bea8389d5a21b922cce53c5a83abcc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9fd44e46b8115442a7f3e0616c6c22db8f02ec3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/5fb8cc23e7d81824b51504c0d22ea1b422224541/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6bba47e7a04afcc66f3563d97d7f01370a55a1ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_9f0cbd7792a6b08a495c60b1192448e949da71e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/ffccc85455176ae6e8e8de95ab06401f6b2f9eb6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a53aa4184d30253330507763fd30f6c81357e7b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac921e70ef74c483d0039d4d23440d6f573ce17c">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_91d3daf0519ebc5261a9e5b6abfafd6bbfa9be35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/ae61e0933e51303e83a3835019b0440c70ecd994/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_aa8cbaf9e6bf3beae6acaa3d2b8a3e4eda6f8ea4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/4b1a4f3711f7e68a5f36ef651500a3e96d6c90e0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fefa360bbd3d13b451d22bec675fc549848bb437/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/0f0df97964056c0c8567e60200c218864b08d366/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_082d1c95a8ada554cc6ca8148ea836fd1cbcaddb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/2b29a9f4091642eec23faa3227961ab2ce52ea6d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aba365c7890824ab767a0f334a7a9d29e89ac30c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/1734e9b40fdc08afb0618b11f5fbd950088f7e44/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4ab8678882571a0a6f19c47a826ecbce5b4f42b">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e733f6ffb3e9b0279f84fb83b0ad0c158de49e91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/8326d76c2894ac54fe322c0efde3f5ccf1ca67fe/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f8d31d277e5ee414e4b4770519dc0aa1fa8d7cd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_59fbe64b160689a653672d4fdedc171588292481/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_124ef117b7853f1e2a5b15f6dd834441d544b9a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/06b811a87258e6af2311bc28f6e836bb899114fa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62ffff2d82f7784603c551868a34b0292ae3f2e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/2f18fdc03ac1175317dffdac4132cd19e90e8eef/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_81e0fb0f2cd40cb769f372fe8dc5f43388af4a96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/cacc0c6849ba92224bb06ea9996aefdecbd63acf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7725608129e9fd37a24f056539db0fb2a12553bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/e52eb9b0fcbe53e01623dd519c29a9b5686ad76a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f45815c2f2b253c62b21498b9b834277829e83c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/6e8143ffc080de40c063f35f5d3b4a3cad6e9065/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e41249ca52bc5e1c8bc384240366a4c119c6e180/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/b2ce5de05e6baea6ed7dbe19b34f474778cee989/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b094fb362d84c3285fd495ee1ca7dc7a5b62ae90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/4901220fd630dfa9788c576c8d0d2e774fff92b2/output/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_2553909dfbd1c49e6bd167bd3be27a993a921e2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_284a46d0c3c9dcd405c3263af74e93894e1e84fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/080ebd00fee41a7b5990683acf21b1efaf3943cd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1e1c34a511071bbe95c32c04d9e9b5f8ad631cd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/libs/ECSUIDPIDGeneratorThin1.0.0.20170322r.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7832386fbc4aeb4173b1341d232f21d688f272a3">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/2/ECSUIDPIDGeneratorThin1.0.0.20170322r_f8fdde0c73f5416df353b061ad9c3cd997fa2c82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/5c325a75ca34ab5d458c44a25e10325c977e7b72/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0a2201471981445c3fa0dc4d3c2396bf1f9fb1e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/a5c06c6d2a4d2d324a4a80df23de1c098acfd22f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44fad1185ed813a39204e9ca31a822fcc60848b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/df9db6100b64bb9ec2cf9c0ca9284f122a790657/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7b976e00f97483e034f3e4baa2851a5b751ec32f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/768fbbb7184c20e5d33168b9eb931a7731a38505/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ce14abdfde2fdf7b582829499fcb3cb928b62e69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.android/build-cache/bb0f10971fa423ec678c0b8557f5ec19a99ff5d8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3748942185980cc86b5b29bd5a323d141d486c16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_556ca0be64d23ddbc460e7567b4fd65da26d5d1e/classes.dex" />
+    </item>
+
+</items>

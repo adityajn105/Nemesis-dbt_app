@@ -58,6 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Invigilator Secret Key"
+                android:inputType="textPassword"
                 android:id="@+id/key"
                 android:gravity="center_horizontal"/>
             </android.support.design.widget.TextInputLayout>

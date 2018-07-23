@@ -72,7 +72,7 @@ public class CandidateListAdapter extends RecyclerView.Adapter<RecyclerView.View
             tv2.setMinimumHeight(200);
             linearLayout.addView(tv2);
             Picasso.with(context.getApplicationContext())
-                    .load("http://35.154.117.178/" + list.get(getAdapterPosition()).get("profile"))
+                    .load("http://13.127.215.252/" + list.get(getAdapterPosition()).get("profile"))
                     .into(img);
             terms.setView(linearLayout);
             terms.setPositiveButton("Close", new DialogInterface.OnClickListener() {
@@ -117,7 +117,7 @@ public class CandidateListAdapter extends RecyclerView.Adapter<RecyclerView.View
             holder0.statusIcon.setImageDrawable(context.getResources().getDrawable(R.drawable.unknown_24));
             //holder0.cardView.setCardBackgroundColor(Color.YELLOW);
         }
-        Picasso.with(context).load("http://35.154.117.178/"+list.get(position).get("profile")).noFade().into(holder0.profile);
+        Picasso.with(context).load("http://13.127.215.252/"+list.get(position).get("profile")).noFade().into(holder0.profile);
     }
 
     @Override

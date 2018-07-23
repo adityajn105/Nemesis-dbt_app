@@ -22,8 +22,10 @@ import com.nemesis.nemesis.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import static com.nemesis.nemesis.ActivityIdentifiers.AUTH_RESULT;
+import static com.nemesis.nemesis.ActivityIdentifiers.BIO_FAILURE;
 import static com.nemesis.nemesis.ActivityIdentifiers.BIO_SUCCESS;
 import static com.nemesis.nemesis.ActivityIdentifiers.FINGERPRINT_ERROR;
 
@@ -67,7 +69,8 @@ public class ProcessingActivity extends AppCompatActivity {
             {
                 try
                 {
-                    String action = "";
+                    //comment for demo
+                    /*String action = "";
                     if(Global.SELECTED_AUTH == 0)
                         action = "AUTH";
                     else
@@ -115,7 +118,7 @@ public class ProcessingActivity extends AppCompatActivity {
                         return ;
                     }
 
-                    /************** AUTH ***************************/
+                    *//************** AUTH ***************************//*
                     if(!resString.contains("<ECSAuthResponseEx "))
                     {
                         runOnUiThread(new Runnable() {
@@ -145,13 +148,22 @@ public class ProcessingActivity extends AppCompatActivity {
                             }
                         });
                         return ;
-                    }
+                    }*/
 
-                    Intent intent = new Intent();
-                    intent.putExtra("AUTH_RESULT",true);
-                    setResult(BIO_SUCCESS,intent);
-                    finish();
-                    return;
+                    if(new Random().nextBoolean()) {
+                        Intent intent = new Intent();
+                        intent.putExtra("AUTH_RESULT", true);
+                        setResult(BIO_SUCCESS, intent);
+                        finish();
+                        return;
+                    }
+                    else{
+                        Intent intent = new Intent();
+                        intent.putExtra("AUTH_RESULT", true);
+                        setResult(BIO_FAILURE, intent);
+                        finish();
+                        return;
+                    }
                     /************** END OF AUTH ***************************/
 
 

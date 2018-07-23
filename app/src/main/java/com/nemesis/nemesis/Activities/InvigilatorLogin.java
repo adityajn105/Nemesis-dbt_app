@@ -109,7 +109,12 @@ public class InvigilatorLogin extends AppCompatActivity {
                 .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
                     @Override
                     public void onClick(SweetAlertDialog sweetAlertDialog) {
+                        //Use this code if FM220 device available
+                        /*
                         performBiometric(invigilatorDetails.getAadhar());
+                        sweetAlertDialog.cancel();
+                        */
+                        onActivityResult(FINGERPRINT_SCAN_CODE,BIO_SUCCESS,null);
                         sweetAlertDialog.cancel();
                     }
                 })

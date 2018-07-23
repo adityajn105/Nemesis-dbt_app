@@ -22,7 +22,7 @@ import retrofit2.http.Part;
  */
 
 public class HttpRequest {
-    public static String API_URL="http://35.154.117.178/http/";
+    public static String API_URL="http://13.127.215.252/http/";
 
     public static Retrofit retrofit= new Retrofit.Builder()
             .baseUrl(API_URL)

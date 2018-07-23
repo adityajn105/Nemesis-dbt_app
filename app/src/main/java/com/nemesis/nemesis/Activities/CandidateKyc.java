@@ -57,9 +57,10 @@ public class CandidateKyc extends AppCompatActivity {
 
         Intent intent=getIntent();
         String rollno=intent.getStringExtra("rollno");
+        arc=new ApiResponseCodes();
         viewKyc(rollno);
 
-        arc=new ApiResponseCodes();
+
     }
 
     public void viewKyc(final String enroll){
@@ -102,7 +103,7 @@ public class CandidateKyc extends AppCompatActivity {
                 .subscribe(new Action1<CandidateDetails>() {
                     @Override
                     public void call(CandidateDetails candidateDetails) {
-                        Picasso.with(getApplicationContext()).load("http://35.154.117.178/"+candidateDetails.getProfile()).noFade().into(profile);
+                        Picasso.with(getApplicationContext()).load("http://13.127.215.252/"+candidateDetails.getProfile()).noFade().into(profile);
                         rollno.setText("Enrollment No : "+candidateDetails.getRollno());
                         center.setText("Center : "+PrefUtils.getInvigilatorCenter(getApplicationContext()));
                         name.setText(candidateDetails.getFname()+" "+candidateDetails.getLname());

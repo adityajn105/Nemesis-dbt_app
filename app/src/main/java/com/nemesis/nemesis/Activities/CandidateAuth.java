@@ -78,39 +78,24 @@ public class CandidateAuth extends AppCompatActivity {
         final String aadhar=intent.getStringExtra("aadhar");
         arc=new ApiResponseCodes();
 
-        Picasso.with(getApplicationContext()).load("http://35.154.117.178/"+profile).noFade().into(profilephoto);
+        Picasso.with(getApplicationContext()).load("http://13.127.215.252/"+profile).noFade().into(profilephoto);
         rollno.setText("Enrollment No : "+enroll);
         name.setText(nam);
 
         biometric.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Use this code if FM220 device available
+                /*
                 Intent intent=new Intent(getApplicationContext(),ScanningScreen.class);
                 intent.putExtra(UID,aadhar);
                 startActivityForResult(intent, FINGERPRINT_SCAN_CODE);
+                */
+                onActivityResult(FINGERPRINT_SCAN_CODE,BIO_SUCCESS,null);
+
             }
         });
-
-
-
     }
-
-/*
-
-    @OnClick(R.id.biometric)
-    public void performBiometric(String aadhar){
-        Intent intent=new Intent(getApplicationContext(),ScanningScreen.class);
-        intent.putExtra(UID,aadhar);
-        startActivityForResult(intent, FINGERPRINT_SCAN_CODE);
-       */
-/* PrefUtils.newLogIn(getApplicationContext(), invigilator);
-        startActivity(new Intent(getApplicationContext(),MainActivity.class));*//*
-
-    }
-*/
-
-
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
