@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     android:id="@+id/mainLayout"
     tools:context="com.nemesis.nemesis.Activities.InvigilatorLogin">
     <LinearLayout
@@ -46,6 +47,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
+                    android:text="15006801"
                     android:hint="Invigilator Id"
                     android:gravity="center_horizontal"
                     android:id="@+id/id"/>
@@ -60,6 +62,7 @@
                 android:hint="Invigilator Secret Key"
                 android:inputType="textPassword"
                 android:id="@+id/key"
+                android:text="aditya123"
                 android:gravity="center_horizontal"/>
             </android.support.design.widget.TextInputLayout>
             <android.support.v7.widget.CardView

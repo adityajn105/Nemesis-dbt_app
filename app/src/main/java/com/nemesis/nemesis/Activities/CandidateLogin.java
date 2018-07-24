@@ -120,7 +120,6 @@ public class CandidateLogin extends AppCompatActivity {
                                     .setTitleText("Error : "+response.body().getStatuscode())
                                     .setContentText(arc.getResponsePhrase(response.body().getStatuscode()))
                                     .show();
-                            enroll.setText("");
                             enroll.requestFocus();
                         }
                     }
@@ -156,8 +155,23 @@ public class CandidateLogin extends AppCompatActivity {
 
 
     public void logOut(){
-        PrefUtils.logout(getApplicationContext());
-        startActivity(new Intent(getApplicationContext(),InvigilatorLogin.class));
+        new SweetAlertDialog(this,SweetAlertDialog.WARNING_TYPE)
+                .setTitleText("Are You Sure?")
+                .setConfirmText("Yes, LogOut")
+                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+                        PrefUtils.logout(getApplicationContext());
+                        startActivity(new Intent(getApplicationContext(),InvigilatorLogin.class));
+                    }
+                })
+                .setCancelText("Cancel")
+                .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+                        sweetAlertDialog.cancel();
+                    }
+                }).show();
     }
 
     public void instruct(){
@@ -184,6 +198,25 @@ public class CandidateLogin extends AppCompatActivity {
             }
         });
         terms.create().show();
+    }
 
+    public void goBack(){
+        new SweetAlertDialog(this,SweetAlertDialog.WARNING_TYPE)
+                .setTitleText("Do you want to logout?")
+                .setConfirmText("Yes, LogOut")
+                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+                        PrefUtils.logout(getApplicationContext());
+                        startActivity(new Intent(getApplicationContext(),InvigilatorLogin.class));
+                    }
+                })
+                .setCancelText("Cancel")
+                .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+                        sweetAlertDialog.cancel();
+                    }
+                }).show();
     }
 }

@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.nemesis.nemesis.ActivityIdentifiers;
 import com.nemesis.nemesis.ApiResponseCodes;
@@ -74,7 +75,7 @@ public class InvigilatorLogin extends AppCompatActivity {
                             subscriber.onNext(response.body());
                         }
                         else{
-                            new SweetAlertDialog(getApplicationContext(), SweetAlertDialog.ERROR_TYPE)
+                        new SweetAlertDialog(InvigilatorLogin.this, SweetAlertDialog.ERROR_TYPE)
                                     .setTitleText("Error : "+response.body().getStatuscode())
                                     .setContentText(arc.getResponsePhrase(response.body().getStatuscode()))
                                     .show();
@@ -82,7 +83,7 @@ public class InvigilatorLogin extends AppCompatActivity {
                  }
                  @Override
                  public void onFailure(Call<InvigilatorDetails> call, Throwable t) {
-                     new SweetAlertDialog(getApplicationContext(), SweetAlertDialog.ERROR_TYPE)
+                     new SweetAlertDialog(InvigilatorLogin.this, SweetAlertDialog.ERROR_TYPE)
                              .setTitleText("Something Went Wrong")
                              .setContentText("Check Your Internet Connection")
                              .show();

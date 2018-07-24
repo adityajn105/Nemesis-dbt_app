@@ -40,8 +40,6 @@ public class BottomFragment extends Fragment {
         View v= inflater.inflate(R.layout.fragment_bottom, container, false);
         ButterKnife.bind(this,v);
         act= ActivityIdentifiers.getCurrentScreen(getContext());
-
-
         return v;
     }
 
@@ -54,6 +52,12 @@ public class BottomFragment extends Fragment {
                 break;
             case ActivityIdentifiers.CANDIDATE_KYC_SCREEN:
                 ((CandidateKyc)getContext()).goBack();
+                break;
+            case ActivityIdentifiers.CANDIDATE_LOGIN_SCREEN:
+                ((CandidateLogin)getContext()).goBack();
+                break;
+            case ActivityIdentifiers.CANDIDATE_AUTH_SCREEN:
+                ((CandidateAuth)getContext()).goBack();
                 break;
         }
     }
@@ -68,6 +72,10 @@ public class BottomFragment extends Fragment {
                 break;
             case ActivityIdentifiers.CANDIDATE_KYC_SCREEN:
                 ((CandidateKyc)getContext()).listClicked();
+                break;
+            case ActivityIdentifiers.CANDIDATE_AUTH_SCREEN:
+                ((CandidateAuth)getContext()).listClicked();
+                break;
         }
     }
 
@@ -92,6 +100,9 @@ public class BottomFragment extends Fragment {
             case ActivityIdentifiers.CANDIDATE_KYC_SCREEN:
                 ((CandidateKyc)getContext()).logOut();
                 break;
+            case ActivityIdentifiers.CANDIDATE_AUTH_SCREEN:
+                ((CandidateAuth)getContext()).logOut();
+                break;
         }
     }
 
@@ -100,6 +111,16 @@ public class BottomFragment extends Fragment {
         switch(act){
             case ActivityIdentifiers.CANDIDATE_LOGIN_SCREEN:
                 ((CandidateLogin)getContext()).instruct();
+                break;
+            case ActivityIdentifiers.CANDIDATE_AUTH_SCREEN:
+                ((CandidateAuth)getContext()).instruct();
+                break;
+            case ActivityIdentifiers.CANDIDATE_KYC_SCREEN:
+                ((CandidateKyc)getContext()).instruct();
+                break;
+            case ActivityIdentifiers.CANDIDATE_LIST_SCREEN:
+                ((CandidateList)getContext()).instruct();
+                break;
         }
     }
 

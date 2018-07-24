@@ -574,7 +574,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ac921e70ef74c483d0039d4d23440d6f573ce17c">
+        sha1="d02f141f2875f1d43b8c61d63e46c4f697213a98">
         <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_91d3daf0519ebc5261a9e5b6abfafd6bbfa9be35/classes.dex" />
     </item>
     <item

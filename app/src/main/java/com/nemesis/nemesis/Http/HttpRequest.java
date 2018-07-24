@@ -1,6 +1,5 @@
 package com.nemesis.nemesis.Http;
 
-import com.nemesis.nemesis.Activities.CandidateKyc;
 import com.nemesis.nemesis.Pojos.MyCandidates;
 import com.nemesis.nemesis.Pojos.CandidateDetails;
 import com.nemesis.nemesis.Pojos.CandidateInfo;

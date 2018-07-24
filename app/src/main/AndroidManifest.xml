@@ -11,14 +11,17 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.InvigilatorLogin">
+        <activity
+            android:name=".Activities.InvigilatorLogin"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.CandidateLogin" />
+        <activity
+            android:name=".Activities.CandidateLogin"
+            android:windowSoftInputMode="adjustPan" />
         <activity android:name=".Activities.CandidateAuth" />
         <activity android:name=".Activities.CandidateKyc" />
         <activity android:name=".Activities.CandidateList" />
@@ -28,5 +31,4 @@
         <activity android:name=".Activities.ProcessingActivity" />
         <activity android:name=".Activities.ScanningScreen"></activity>
     </application>
-
 </manifest>
