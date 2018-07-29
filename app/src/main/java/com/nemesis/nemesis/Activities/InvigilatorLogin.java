@@ -16,6 +16,8 @@ import com.nemesis.nemesis.Pojos.InvigilatorDetails;
 import com.nemesis.nemesis.Prefs.PrefUtils;
 import com.nemesis.nemesis.R;
 
+import java.util.Random;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -110,13 +112,13 @@ public class InvigilatorLogin extends AppCompatActivity {
                 .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
                     @Override
                     public void onClick(SweetAlertDialog sweetAlertDialog) {
-                        //Use this code if FM220 device available
-                        /*
                         performBiometric(invigilatorDetails.getAadhar());
                         sweetAlertDialog.cancel();
-                        */
-                        onActivityResult(FINGERPRINT_SCAN_CODE,BIO_SUCCESS,null);
+                        //Use this code if FM220 device not available
+                        /*
+                        onActivityResult(FINGERPRINT_SCAN_CODE, BIO_SUCCESS, null);
                         sweetAlertDialog.cancel();
+                        */
                     }
                 })
                 .setCancelText("Cancel")
@@ -153,7 +155,7 @@ public class InvigilatorLogin extends AppCompatActivity {
                         .show();
             }else{
                 new SweetAlertDialog(this,SweetAlertDialog.ERROR_TYPE)
-                        .setTitleText(data.getStringExtra(AUTH_RESULT))
+                        .setTitleText("Biometric Authentication Failure")
                         .setContentText("Try Again or Contact Admin.")
                         .setConfirmText("OK")
                         .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {

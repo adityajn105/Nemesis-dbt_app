@@ -41,6 +41,7 @@ import rx.functions.Action1;
 
 import static android.R.attr.onClick;
 import static com.nemesis.nemesis.ActivityIdentifiers.AUTH_RESULT;
+import static com.nemesis.nemesis.ActivityIdentifiers.BIO_FAILURE;
 import static com.nemesis.nemesis.ActivityIdentifiers.BIO_SUCCESS;
 import static com.nemesis.nemesis.ActivityIdentifiers.FINGERPRINT_SCAN_CODE;
 import static com.nemesis.nemesis.ActivityIdentifiers.UID;
@@ -90,14 +91,13 @@ public class CandidateAuth extends AppCompatActivity {
         biometric.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Use this code if FM220 device available
-                /*
                 Intent intent=new Intent(getApplicationContext(),ScanningScreen.class);
                 intent.putExtra(UID,aadhar);
                 startActivityForResult(intent, FINGERPRINT_SCAN_CODE);
+                //Use this code if FM220 device not available
+                /*
+                onActivityResult(FINGERPRINT_SCAN_CODE,BIO_FAILURE,null);
                 */
-                onActivityResult(FINGERPRINT_SCAN_CODE,BIO_SUCCESS,null);
-
             }
         });
     }
@@ -218,7 +218,7 @@ public class CandidateAuth extends AppCompatActivity {
                         .show();
             }else{
                 new SweetAlertDialog(this,SweetAlertDialog.ERROR_TYPE)
-                        .setTitleText(data.getStringExtra(AUTH_RESULT))
+                        .setTitleText("Biometric Authentication Failure.")
                         .setContentText("Retry or Report Impersonation")
                         .setConfirmText("Retry")
                         .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
@@ -298,7 +298,7 @@ public class CandidateAuth extends AppCompatActivity {
                     @Override
                     public void call(DefaultResponse defaultResponse) {
                         new SweetAlertDialog(CandidateAuth.this,SweetAlertDialog.SUCCESS_TYPE)
-                                .setTitleText("Impersonation Successfully reported!")
+                                .setTitleText("Impersonation Successfully \nreported!")
                                 .setContentText("Redirecting to Home!!")
                                 .setConfirmText("OK")
                                 .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
