@@ -218,7 +218,7 @@ public class CandidateAuth extends AppCompatActivity {
                         .show();
             }else{
                 new SweetAlertDialog(this,SweetAlertDialog.ERROR_TYPE)
-                        .setTitleText("Biometric Authentication Failure.")
+                        .setTitleText(data.getStringExtra("AUTH_RESULT"))
                         .setContentText("Retry or Report Impersonation")
                         .setConfirmText("Retry")
                         .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {

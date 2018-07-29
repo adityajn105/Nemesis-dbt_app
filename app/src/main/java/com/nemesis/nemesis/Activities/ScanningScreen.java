@@ -170,7 +170,7 @@ public class ScanningScreen extends AppCompatActivity implements IFM220 {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode==FINGERPRINT_SCAN_CODE){
             Intent intent = new Intent();
-            //intent.putExtra(AUTH_RESULT,data.getStringExtra(AUTH_RESULT));
+            intent.putExtra(AUTH_RESULT,data.getStringExtra(AUTH_RESULT));
             setResult(resultCode,intent);
             finish();
         }

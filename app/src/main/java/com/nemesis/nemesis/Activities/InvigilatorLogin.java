@@ -155,7 +155,7 @@ public class InvigilatorLogin extends AppCompatActivity {
                         .show();
             }else{
                 new SweetAlertDialog(this,SweetAlertDialog.ERROR_TYPE)
-                        .setTitleText("Biometric Authentication Failure")
+                        .setTitleText(data.getStringExtra("AUTH_RESULT"))
                         .setContentText("Try Again or Contact Admin.")
                         .setConfirmText("OK")
                         .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {

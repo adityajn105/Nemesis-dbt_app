@@ -152,14 +152,14 @@ public class ProcessingActivity extends AppCompatActivity {
 
                     if(new Random().nextBoolean()) {
                         Intent intent = new Intent();
-                        //intent.putExtra("AUTH_RESULT", true);
+                        intent.putExtra("AUTH_RESULT", true);
                         setResult(BIO_SUCCESS, intent);
                         finish();
                         return;
                     }
                     else{
                         Intent intent = new Intent();
-                        //intent.putExtra("AUTH_RESULT", true);
+                        intent.putExtra("AUTH_RESULT", "Candidate Biometric Authentication Failure");
                         setResult(BIO_FAILURE, intent);
                         finish();
                         return;
