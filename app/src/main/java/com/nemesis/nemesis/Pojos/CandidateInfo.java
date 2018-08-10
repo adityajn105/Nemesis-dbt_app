@@ -9,56 +9,44 @@ import com.google.gson.annotations.SerializedName;
 
 public class CandidateInfo {
 
-    @SerializedName("statuscode")
+    @SerializedName("status")
     @Expose
-    private int statuscode;
+    private boolean status;
 
-    @SerializedName("rollno")
+    @SerializedName("enrollment")
     @Expose
-    private String rollno;
+    private String enrollment;
 
-    @SerializedName("fname")
+    @SerializedName("firstname")
     @Expose
-    private String fname;
+    private String firstname;
 
-    @SerializedName("lname")
+    @SerializedName("lastname")
     @Expose
-    private String lname;
+    private String lastname;
 
-    @SerializedName("aadhar")
+    @SerializedName("aadhaar")
     @Expose
-    private String aadhar;
+    private String aadhaar;
 
     @SerializedName("profile")
     @Expose
     private String profile;
 
-    @SerializedName("status")
-    @Expose
-    private String status;
-
-    public String getStatus() {
+    public boolean isStatus() {
         return status;
     }
 
-    public int getStatuscode() {
-        return statuscode;
+    public String getEnrollment() {
+        return enrollment;
     }
 
-    public String getRollno() {
-        return rollno;
+    public String getName() {
+        return firstname+" "+lastname;
     }
 
-    public String getFname() {
-        return fname;
-    }
-
-    public String getLname() {
-        return lname;
-    }
-
-    public String getAadhar() {
-        return aadhar;
+    public String getAadhaar() {
+        return aadhaar;
     }
 
     public String getProfile() {

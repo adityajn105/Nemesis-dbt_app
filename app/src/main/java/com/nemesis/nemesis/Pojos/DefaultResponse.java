@@ -9,11 +9,12 @@ import com.google.gson.annotations.SerializedName;
 
 public class DefaultResponse {
 
-    @SerializedName("statuscode")
+    @SerializedName("status")
     @Expose
-    private int statuscode;
+    private boolean status;
 
-    public int getStatuscode() {
-        return statuscode;
+    public boolean isStatus() {
+        return status;
     }
+
 }

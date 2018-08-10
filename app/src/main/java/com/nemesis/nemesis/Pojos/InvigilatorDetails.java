@@ -12,60 +12,69 @@ import com.google.gson.annotations.SerializedName;
 
 public class InvigilatorDetails {
 
-    @SerializedName("statuscode")
+    @SerializedName("status")
     @Expose
-    private int statuscode;
+    private boolean status;
 
-    @SerializedName("id")
+    @SerializedName("token")
     @Expose
-    private String id;
+    private String token;
 
-    @SerializedName("name")
-    @Expose
-    private String name;
-
-    @SerializedName("aadhar")
-    @Expose
-    private String aadhar;
 
     @SerializedName("center")
     @Expose
-    private String center;
-
-    @SerializedName("ikey")
-    @Expose
-    private String ikey;
+    private int center;
 
     @SerializedName("profile")
     @Expose
     private String profile;
 
+    @SerializedName("firstname")
+    @Expose
+    private String firstname;
 
-    public int getStatuscode() {
-        return statuscode;
+    @SerializedName("lastname")
+    @Expose
+    private String lastname;
+
+    @SerializedName("aadhaar")
+    @Expose
+    private String aadhaar;
+
+    @SerializedName("id")
+    @Expose
+    private String id;
+
+
+    public boolean isStatus() {
+        return status;
     }
 
-    public String getId() {
-        return id;
+    public String getToken() {
+        return token;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getAadhar() {
-        return aadhar;
-    }
-
-    public String getCenter() {
+    public int getCenter() {
         return center;
-    }
-
-    public String getIkey() {
-        return ikey;
     }
 
     public String getProfile() {
         return profile;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public String getAadhaar() {
+        return aadhaar;
+    }
+
+    public String getId() {
+        return id;
     }
 }

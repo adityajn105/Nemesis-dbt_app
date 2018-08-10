@@ -72,7 +72,7 @@ public class CandidateListAdapter extends RecyclerView.Adapter<RecyclerView.View
             tv2.setMinimumHeight(200);
             linearLayout.addView(tv2);
             Picasso.with(context.getApplicationContext())
-                    .load("http://13.127.215.252/" + list.get(getAdapterPosition()).get("profile"))
+                    .load("http://13.232.71.170/" + list.get(getAdapterPosition()).get("profile"))
                     .into(img);
             terms.setView(linearLayout);
             terms.setPositiveButton("Close", new DialogInterface.OnClickListener() {
@@ -100,11 +100,11 @@ public class CandidateListAdapter extends RecyclerView.Adapter<RecyclerView.View
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         ViewHolder holder0=(ViewHolder) holder;
-        holder0.name.setText(list.get(position).get("name"));
+        holder0.name.setText(list.get(position).get("firstname")+" "+list.get(position).get("lastname"));
         holder0.attempts.setText("Attempts Made : "+list.get(position).get("attempts"));
         holder0.status.setText(list.get(position).get("status"));
         holder0.email.setText(list.get(position).get("email"));
-        holder0.rollno.setText("Enrollment no : "+list.get(position).get("rollno"));
+        holder0.rollno.setText("Enrollment no : "+list.get(position).get("enrollment"));
         if(list.get(position).get("status").equals("SUCCESS")){
             holder0.statusIcon.setImageDrawable(context.getResources().getDrawable(R.drawable.success_24));
             //holder0.cardView.setCardBackgroundColor(Color.GREEN);
@@ -117,7 +117,7 @@ public class CandidateListAdapter extends RecyclerView.Adapter<RecyclerView.View
             holder0.statusIcon.setImageDrawable(context.getResources().getDrawable(R.drawable.unknown_24));
             //holder0.cardView.setCardBackgroundColor(Color.YELLOW);
         }
-        Picasso.with(context).load("http://13.127.215.252/"+list.get(position).get("profile")).noFade().into(holder0.profile);
+        Picasso.with(context).load("http://13.232.71.170/"+list.get(position).get("profile")).noFade().into(holder0.profile);
     }
 
     @Override

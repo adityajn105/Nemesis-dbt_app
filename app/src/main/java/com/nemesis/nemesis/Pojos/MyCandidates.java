@@ -11,25 +11,23 @@ import java.util.HashMap;
  */
 
 public class MyCandidates {
-    @SerializedName("statuscode")
+    @SerializedName("status")
     @Expose
-    private int statuscode;
+    private boolean status;
 
     @SerializedName("count")
     @Expose
     private int count;
 
+
     @SerializedName("list")
     @Expose
     private ArrayList<HashMap<String,String>> list;
 
-    public int getStatuscode() {
-        return statuscode;
-    }
-
     public int getCount() {
         return count;
     }
+
 
     public ArrayList<HashMap<String, String>> getList() {
         return list;

@@ -13,9 +13,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.nemesis.nemesis.ARC;
 import com.nemesis.nemesis.ActivityIdentifiers;
 import com.nemesis.nemesis.Adapters.CandidateListAdapter;
-import com.nemesis.nemesis.ApiResponseCodes;
 import com.nemesis.nemesis.Fragments.BottomFragment;
 import com.nemesis.nemesis.Fragments.TopFragment;
 import com.nemesis.nemesis.Http.HttpRequest;
@@ -24,13 +24,10 @@ import com.nemesis.nemesis.Prefs.PrefUtils;
 import com.nemesis.nemesis.R;
 
 import java.util.HashMap;
-import java.util.StringTokenizer;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import cn.pedant.SweetAlert.SweetAlertDialog;
-import okhttp3.MediaType;
-import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -43,7 +40,6 @@ public class CandidateList extends AppCompatActivity {
     @BindView(R.id.recyclerview) RecyclerView recyclerView;
     @BindView(R.id.summary)
     TextView summary;
-    ApiResponseCodes arc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +47,6 @@ public class CandidateList extends AppCompatActivity {
         setContentView(R.layout.activity_candidate_list);
         ButterKnife.bind(this);
         ActivityIdentifiers.setCurrentScreen(getApplicationContext(),ActivityIdentifiers.CANDIDATE_LIST_SCREEN);
-        arc=new ApiResponseCodes();
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         getSupportFragmentManager().beginTransaction().add(R.id.topFrame,new TopFragment()).addToBackStack(null)
@@ -66,21 +61,21 @@ public class CandidateList extends AppCompatActivity {
         rx.Observable.create(new rx.Observable.OnSubscribe<MyCandidates>() {
             @Override
             public void call(final Subscriber<? super MyCandidates> subscriber) {
-                HttpRequest.ExamApiInterface examInterface = HttpRequest.retrofit.create(HttpRequest.ExamApiInterface.class);
+                HttpRequest.ExamApiInterface examInterface = new HttpRequest(PrefUtils.getAccessToken(getApplicationContext()),"")
+                        .retrofit.create(HttpRequest.ExamApiInterface.class);
                 Call<MyCandidates> responseCall = examInterface.getAllCandidates(
-                        RequestBody.create(MediaType.parse("text/string"),PrefUtils.getInvigilatorId(getApplicationContext())),
-                        RequestBody.create(MediaType.parse("text/string"),PrefUtils.getInvigilatorKey(getApplicationContext()))
+                        PrefUtils.getInvigilatorId(getApplicationContext())
                 );
                 responseCall.enqueue(new Callback<MyCandidates>() {
                     @Override
                     public void onResponse(Call<MyCandidates> call, Response<MyCandidates> response) {
-                        if(response.body().getStatuscode()==200){
+                        if(response.code()==200){
                             subscriber.onNext(response.body());
                         }
                         else{
                             new SweetAlertDialog(CandidateList.this, SweetAlertDialog.ERROR_TYPE)
-                                    .setTitleText("Error : "+response.body().getStatuscode())
-                                    .setContentText(arc.getResponsePhrase(response.body().getStatuscode()))
+                                    .setTitleText("Error : "+response.code())
+                                    .setContentText(ARC.getPhrase(response.code()))
                                     .show();
                         }
                     }
@@ -117,7 +112,7 @@ public class CandidateList extends AppCompatActivity {
                         }
                         summary.setText(
                                 "Total Students :"+total+"\n"+
-                                "UnAuthenticated :"+unknown+"\n"+
+                                "Not Authenticated :"+unknown+"\n"+
                                 "Successfully Authenticated : "+success+"\n"+
                                 "Impersonation Detected : "+failure+"\n"
                         );

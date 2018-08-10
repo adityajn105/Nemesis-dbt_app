@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/libs/ECSUIDPIDGeneratorThin1.0.0.20170322r.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7832386fbc4aeb4173b1341d232f21d688f272a3">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/2/ECSUIDPIDGeneratorThin1.0.0.20170322r_f8fdde0c73f5416df353b061ad9c3cd997fa2c82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_655ba6ea9b6647c555bf25c6bd4dd2835354d4dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/libs/jsr311-api-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59033da2a1afd56af1ac576750a8d0b1830d59e6">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsr311-api-1.1.1_bd5e8b2fb5224798aaf9b68d6648f0fa0be70c93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/libs/simple-xml-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/2/simple-xml-2.7.1_fbde168f924e340a9e8d34d271a3f7b19f870299/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb17e8a8838239760b0f65060f74ddf6f65a8f2e">
+        <dex dex="/home/aditya/AndroidStudioProjects/Nemesis/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_91d3daf0519ebc5261a9e5b6abfafd6bbfa9be35/classes.dex" />
+    </item>
+
+</items>

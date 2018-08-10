@@ -58,8 +58,8 @@ public class TopFragment extends Fragment {
                 back.setVisibility(View.GONE);
                 break;
         }
-        Picasso.with(getContext()).load("http://13.127.215.252/"+ PrefUtils.getInvigilatorProfile(getContext())).into(invigilatorProfile);
-        name.setText(PrefUtils.getInvigilatorName(getContext()));
+        Picasso.with(getContext()).load("http://13.232.71.170/"+ PrefUtils.getInvigilatorProfile(getContext())).into(invigilatorProfile);
+        name.setText(PrefUtils.getInvigilatorFirstName(getContext())+" "+PrefUtils.getInvigilatorLastName(getContext()));
         center.setText("Center : "+PrefUtils.getInvigilatorCenter(getContext()));
 
         return v;

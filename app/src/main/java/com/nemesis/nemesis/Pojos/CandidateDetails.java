@@ -9,17 +9,17 @@ import com.google.gson.annotations.SerializedName;
 
 public class CandidateDetails {
 
-    @SerializedName("statuscode")
+    @SerializedName("status")
     @Expose
-    private int statuscode;
+    private boolean status;
 
-    @SerializedName("fname")
+    @SerializedName("firstname")
     @Expose
-    private String fname;
+    private String firstname;
 
-    @SerializedName("lname")
+    @SerializedName("lastname")
     @Expose
-    private String lname;
+    private String lastname;
 
     @SerializedName("email")
     @Expose
@@ -29,32 +29,28 @@ public class CandidateDetails {
     @Expose
     private String dob;
 
-    @SerializedName("rollno")
+    @SerializedName("enrollment")
     @Expose
-    private String rollno;
+    private String enrollment;
 
     @SerializedName("profile")
     @Expose
     private String profile;
 
-    @SerializedName("status")
-    @Expose
-    private String status;
-
     @SerializedName("attempts")
     @Expose
     private String attempts;
 
-    public int getStatuscode() {
-        return statuscode;
+    @SerializedName("cstatus")
+    @Expose
+    private String cstatus;
+
+    public boolean isStatus() {
+        return status;
     }
 
-    public String getFname() {
-        return fname;
-    }
-
-    public String getLname() {
-        return lname;
+    public String getName() {
+        return firstname+" "+lastname;
     }
 
     public String getEmail() {
@@ -65,19 +61,19 @@ public class CandidateDetails {
         return dob;
     }
 
-    public String getRollno() {
-        return rollno;
+    public String getEnrollment() {
+        return enrollment;
     }
 
     public String getProfile() {
         return profile;
     }
 
-    public String getStatus() {
-        return status;
-    }
-
     public String getAttempts() {
         return attempts;
+    }
+
+    public String getCstatus() {
+        return cstatus;
     }
 }

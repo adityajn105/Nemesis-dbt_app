@@ -1,6 +1,5 @@
 package com.nemesis.nemesis.Activities;
 
-import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
@@ -14,22 +13,20 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.ecs.pidgen.data.BiometricData;
+import com.nemesis.nemesis.ARC;
 import com.nemesis.nemesis.ActivityIdentifiers;
-import com.nemesis.nemesis.ApiResponseCodes;
 import com.nemesis.nemesis.Fragments.BottomFragment;
 import com.nemesis.nemesis.Fragments.TopFragment;
 import com.nemesis.nemesis.Http.HttpRequest;
-import com.nemesis.nemesis.Pojos.CandidateInfo;
-import com.nemesis.nemesis.Pojos.DefaultRequest;
 import com.nemesis.nemesis.Pojos.DefaultResponse;
 import com.nemesis.nemesis.Prefs.PrefUtils;
 import com.nemesis.nemesis.R;
 import com.squareup.picasso.Picasso;
 
+import java.util.Random;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import cn.pedant.SweetAlert.SweetAlertDialog;
 import de.hdodenhof.circleimageview.CircleImageView;
 import retrofit2.Call;
@@ -39,12 +36,9 @@ import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 
-import static android.R.attr.onClick;
-import static com.nemesis.nemesis.ActivityIdentifiers.AUTH_RESULT;
 import static com.nemesis.nemesis.ActivityIdentifiers.BIO_FAILURE;
 import static com.nemesis.nemesis.ActivityIdentifiers.BIO_SUCCESS;
 import static com.nemesis.nemesis.ActivityIdentifiers.FINGERPRINT_SCAN_CODE;
-import static com.nemesis.nemesis.ActivityIdentifiers.UID;
 
 public class CandidateAuth extends AppCompatActivity {
 
@@ -63,7 +57,6 @@ public class CandidateAuth extends AppCompatActivity {
     Button biometric;
     private String profile;
 
-    ApiResponseCodes arc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,25 +72,30 @@ public class CandidateAuth extends AppCompatActivity {
 
         Intent intent=getIntent();
         nam=intent.getStringExtra("name");
-        enroll=intent.getStringExtra("rollno");
+        enroll=intent.getStringExtra("enrollment");
         profile=intent.getStringExtra("profile");
-        final String aadhar=intent.getStringExtra("aadhar");
-        arc=new ApiResponseCodes();
+        final String aadhaar=intent.getStringExtra("aadhaar");
 
-        Picasso.with(getApplicationContext()).load("http://13.127.215.252/"+profile).noFade().into(profilephoto);
+        Picasso.with(getApplicationContext()).load("http://13.232.71.170/"+profile).noFade().into(profilephoto);
         rollno.setText("Enrollment No : "+enroll);
         name.setText(nam);
 
         biometric.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),ScanningScreen.class);
-                intent.putExtra(UID,aadhar);
-                startActivityForResult(intent, FINGERPRINT_SCAN_CODE);
-                //Use this code if FM220 device not available
                 /*
-                onActivityResult(FINGERPRINT_SCAN_CODE,BIO_FAILURE,null);
+                Intent intent=new Intent(getApplicationContext(),ScanningScreen.class);
+                intent.putExtra(UID,aadhaar);
+                startActivityForResult(intent, FINGERPRINT_SCAN_CODE);
                 */
+                //Use this code if FM220 device not available
+                if(new Random().nextBoolean()){
+                    onActivityResult(FINGERPRINT_SCAN_CODE, BIO_SUCCESS, null);
+                }else{
+                    onActivityResult(FINGERPRINT_SCAN_CODE, BIO_FAILURE, null);
+                }
+
+
             }
         });
     }
@@ -105,28 +103,25 @@ public class CandidateAuth extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode==FINGERPRINT_SCAN_CODE) {
-
             rx.Observable.create(new rx.Observable.OnSubscribe<DefaultResponse>() {
                 @Override
                 public void call(final Subscriber<? super DefaultResponse> subscriber) {
-                    HttpRequest.ExamApiInterface examInterface = HttpRequest.retrofit.create(HttpRequest.ExamApiInterface.class);
+                    HttpRequest.ExamApiInterface examInterface = new HttpRequest(PrefUtils.getAccessToken(getApplicationContext()),"")
+                            .retrofit.create(HttpRequest.ExamApiInterface.class);
                     Call<DefaultResponse> responseCall = examInterface.bioAttempt(
-                            new DefaultRequest(
                                     PrefUtils.getInvigilatorId(getApplicationContext()),
-                                    PrefUtils.getInvigilatorKey(getApplicationContext()),
                                     enroll
-                            )
                     );
                     responseCall.enqueue(new Callback<DefaultResponse>() {
                         @Override
                         public void onResponse(Call<DefaultResponse> call, Response<DefaultResponse> response) {
-                            if(response.body().getStatuscode()==200){
+                            if(response.code()==200){
                                 subscriber.onNext(response.body());
                             }
                             else{
                                 new SweetAlertDialog(CandidateAuth.this, SweetAlertDialog.ERROR_TYPE)
-                                        .setTitleText("Error : "+response.body().getStatuscode())
-                                        .setContentText(arc.getResponsePhrase(response.body().getStatuscode()))
+                                        .setTitleText("Error : "+response.code())
+                                        .setContentText(ARC.getPhrase(response.code()))
                                         .show();
                             }
                         }
@@ -151,24 +146,22 @@ public class CandidateAuth extends AppCompatActivity {
                 rx.Observable.create(new rx.Observable.OnSubscribe<DefaultResponse>() {
                     @Override
                     public void call(final Subscriber<? super DefaultResponse> subscriber) {
-                        HttpRequest.ExamApiInterface examInterface = HttpRequest.retrofit.create(HttpRequest.ExamApiInterface.class);
+                        HttpRequest.ExamApiInterface examInterface = new HttpRequest(PrefUtils.getAccessToken(getApplicationContext()),"")
+                                .retrofit.create(HttpRequest.ExamApiInterface.class);
                         Call<DefaultResponse> responseCall = examInterface.authSuccess(
-                                new DefaultRequest(
                                         PrefUtils.getInvigilatorId(getApplicationContext()),
-                                        PrefUtils.getInvigilatorKey(getApplicationContext()),
                                         enroll
-                                )
                         );
                         responseCall.enqueue(new Callback<DefaultResponse>() {
                             @Override
                             public void onResponse(Call<DefaultResponse> call, Response<DefaultResponse> response) {
-                                if(response.body().getStatuscode()==200){
+                                if(response.code()==200){
                                     subscriber.onNext(response.body());
                                 }
                                 else{
                                     new SweetAlertDialog(CandidateAuth.this, SweetAlertDialog.ERROR_TYPE)
-                                            .setTitleText("Error : "+response.body().getStatuscode())
-                                            .setContentText(arc.getResponsePhrase(response.body().getStatuscode()))
+                                            .setTitleText("Error : "+response.code())
+                                            .setContentText(ARC.getPhrase(response.code()))
                                             .show();
                                 }
                             }
@@ -195,7 +188,7 @@ public class CandidateAuth extends AppCompatActivity {
                                             @Override
                                             public void onClick(SweetAlertDialog sweetAlertDialog) {
                                                 Intent intent=new Intent(getApplicationContext(),CandidateKyc.class);
-                                                intent.putExtra("rollno",enroll);
+                                                intent.putExtra("enrollment",enroll);
                                                 startActivity(intent);
                                             }
                                         })
@@ -211,14 +204,14 @@ public class CandidateAuth extends AppCompatActivity {
                             @Override
                             public void onClick(SweetAlertDialog sweetAlertDialog) {
                                 Intent intent=new Intent(getApplicationContext(),CandidateKyc.class);
-                                intent.putExtra("rollno",enroll);
+                                intent.putExtra("enrollment",enroll);
                                 startActivity(intent);
                             }
                         })
                         .show();
             }else{
                 new SweetAlertDialog(this,SweetAlertDialog.ERROR_TYPE)
-                        .setTitleText(data.getStringExtra("AUTH_RESULT"))
+                        .setTitleText("Biometric Authentication Failed")
                         .setContentText("Retry or Report Impersonation")
                         .setConfirmText("Retry")
                         .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
@@ -261,24 +254,22 @@ public class CandidateAuth extends AppCompatActivity {
         rx.Observable.create(new rx.Observable.OnSubscribe<DefaultResponse>() {
             @Override
             public void call(final Subscriber<? super DefaultResponse> subscriber) {
-                HttpRequest.ExamApiInterface examInterface = HttpRequest.retrofit.create(HttpRequest.ExamApiInterface.class);
+                HttpRequest.ExamApiInterface examInterface = new HttpRequest(PrefUtils.getAccessToken(getApplicationContext()),"")
+                        .retrofit.create(HttpRequest.ExamApiInterface.class);
                 Call<DefaultResponse> responseCall = examInterface.reportImpersonation(
-                        new DefaultRequest(
                                 PrefUtils.getInvigilatorId(getApplicationContext()),
-                                PrefUtils.getInvigilatorKey(getApplicationContext()),
                                 enroll
-                        )
                 );
                 responseCall.enqueue(new Callback<DefaultResponse>() {
                     @Override
                     public void onResponse(Call<DefaultResponse> call, Response<DefaultResponse> response) {
-                        if(response.body().getStatuscode()==200){
+                        if(response.code()==200){
                             subscriber.onNext(response.body());
                         }
                         else{
                             new SweetAlertDialog(CandidateAuth.this, SweetAlertDialog.ERROR_TYPE)
-                                    .setTitleText("Error : "+response.body().getStatuscode())
-                                    .setContentText(arc.getResponsePhrase(response.body().getStatuscode()))
+                                    .setTitleText("Error : "+response.code())
+                                    .setContentText(ARC.getPhrase(response.code()))
                                     .show();
                         }
                     }
