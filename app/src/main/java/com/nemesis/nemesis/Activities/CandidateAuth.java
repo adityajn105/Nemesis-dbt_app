@@ -39,6 +39,7 @@ import rx.functions.Action1;
 import static com.nemesis.nemesis.ActivityIdentifiers.BIO_FAILURE;
 import static com.nemesis.nemesis.ActivityIdentifiers.BIO_SUCCESS;
 import static com.nemesis.nemesis.ActivityIdentifiers.FINGERPRINT_SCAN_CODE;
+import static com.nemesis.nemesis.ActivityIdentifiers.UID;
 
 public class CandidateAuth extends AppCompatActivity {
 
@@ -83,17 +84,18 @@ public class CandidateAuth extends AppCompatActivity {
         biometric.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*
                 Intent intent=new Intent(getApplicationContext(),ScanningScreen.class);
                 intent.putExtra(UID,aadhaar);
                 startActivityForResult(intent, FINGERPRINT_SCAN_CODE);
-                */
+
                 //Use this code if FM220 device not available
+                /*
                 if(new Random().nextBoolean()){
                     onActivityResult(FINGERPRINT_SCAN_CODE, BIO_SUCCESS, null);
                 }else{
                     onActivityResult(FINGERPRINT_SCAN_CODE, BIO_FAILURE, null);
                 }
+                */
 
 
             }
